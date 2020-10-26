@@ -1,19 +1,29 @@
 {
   "productos": [
     {
-      "nombre": "Rib Eye",
-      "precio": "500",
-      "id": 7
-    },
-    {
-      "nombre": "Jugo de Limón",
-      "precio": 100,
-      "id": 9
-    },
-    {
       "nombre": "1",
       "precio": 2,
       "id": 10
+    },
+    {
+      "nombre": "asdasd",
+      "precio": 3434,
+      "id": 11
+    },
+    {
+      "nombre": "345",
+      "precio": 4,
+      "id": 12
+    },
+    {
+      "nombre": "234",
+      "precio": 34,
+      "id": 13
+    },
+    {
+      "nombre": "234",
+      "precio": 3,
+      "id": 14
     }
   ]
 }
