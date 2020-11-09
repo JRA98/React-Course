@@ -1,0 +1,22 @@
+{
+  "name": "nodesend",
+  "version": "1.0.0",
+  "description": "Proyecto NodeSend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon './index.js'",
+    "start": "node ./index.js"
+  },
+  "author": "Javier Ruiz Anaya",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "mongoose": "^5.10.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
