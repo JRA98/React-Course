@@ -5,6 +5,7 @@ const conectarDB = require('./config/db');
 const app = express();
 
 
+
 //Conectar a la base de datos
 conectarDB();
 console.log('Iniciando el servidor');
@@ -17,6 +18,9 @@ app.use(express.json());
 
 //Rutas de la app
 app.use('/api/usuarios', require('./routes/usuarios'));
+app.use('/api/auth', require('./routes/auth'));
+app.use('/api/enlaces', require('./routes/enlaces'));
+app.use('/api/archivos', require('./routes/archivos'));
 
 
 //Arrancar la app
